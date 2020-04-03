@@ -17,5 +17,5 @@ Sum calculator at your first version (v.1).
 This is not working yet.
 
 # SumCalculator Chrome
-
+![/src/D:/projetos_pessoais/testes/testando_javascript/img/sumcalculator.png]
 
