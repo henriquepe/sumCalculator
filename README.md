@@ -21,6 +21,6 @@ This is not working yet.
 
 # SumCalculator Chrome
 
-![/src/D:/projetos_pessoais/testes/testando_javascript/img/sumcalculator.png]
+![/src/sumCalculator/img/sumcalculator.png]
 
 
