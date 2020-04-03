@@ -5,7 +5,7 @@ A simple summing calculator
 
 HTML
 
-# stylization
+# Stylization
 
 CSS
 
