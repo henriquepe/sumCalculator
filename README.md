@@ -1,7 +1,6 @@
 # Sum Calculator
 Guia Basico e Pratico
 
-# Ferramentas utilizadas
 
 # Linguagem de marcação
 HTML
