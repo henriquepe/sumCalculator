@@ -1,6 +1,5 @@
 # Sum Calculator
-
-Guia Basico e Pratico
+A simple summing calculator
 
 # Linguagem de marcação
 
