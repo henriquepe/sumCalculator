@@ -1,15 +1,15 @@
 # Sum Calculator
 A simple summing calculator
 
-# Linguagem de marcação
+# Markup language
 
 HTML
 
-# Estilização
+# stylization
 
 CSS
 
-# Linguagem de programação
+# Programming language
 
 Javascript
 
