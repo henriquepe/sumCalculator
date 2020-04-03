@@ -16,3 +16,6 @@ Javascript
 Sum calculator at your first version (v.1).
 This is not working yet.
 
+# SumCalculator Chrome
+
+
