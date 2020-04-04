@@ -2,6 +2,11 @@ body h1{
   font-family: "PT Sans Caption";
 }
 
+.result:hover{
+  background-color: rgba(0, 0, 0, 0.342);
+  color: white;
+}
+
 
 .sumCalculator {
   border: solid;
@@ -47,9 +52,12 @@ body h1{
 
 .sumOperator{
   float: left;
+  color: white;
+  border: solid 2px black;
+  padding: 5px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 10px;
+  margin-top: 0px;
 
 }
 
@@ -69,13 +77,14 @@ body h1{
 }
 
 .sumResult{
-  border: solid 1px black;
+  border: solid 2px black;
   width: 220px;
   height: 37px;
   float: left;
   background: white;
   margin: auto;
   margin-left: 20px;
+  text-align: center;
   
 }
 
@@ -96,7 +105,7 @@ body h1{
   padding: 10px;
   background-color: white;
   float: right;
-  margin-right: 29%;
+  margin-right: 28%;
   margin-top: 70px;
 
 }
