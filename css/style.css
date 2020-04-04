@@ -1,11 +1,13 @@
 body h1{
-  font-family: "Fira Code";
+  font-family: "PT Sans Caption";
 }
+
 
 .sumCalculator {
   border: solid;
-  border-color: black;
-  background: lightblue;
+  border-color: purple;
+  background: rgba(82, 52, 255, 0.877);
+  font-family: "PT Sans Caption";
   width: 800px;
   height: 400px;
 }
@@ -16,7 +18,7 @@ body h1{
   width: 99.6%;
   height: 30%;
   color: purple;
-  font-family: "Fira Code", Helvetica, sans-serif;
+  
 }
 
 .input{
@@ -59,15 +61,17 @@ body h1{
 
 .result{
   float: left;
+  border: solid 1px black;
   margin-left: 20%;
-  font-family: Fira Code, Helvetica, sans-serif;
+  font-family: "PT Sans Caption", Helvetica, sans-serif;
   font-size: 24px;
   color: purple;
 }
 
 .sumResult{
+  border: solid 1px black;
   width: 220px;
-  height: 30px;
+  height: 37px;
   float: left;
   background: white;
   margin: auto;
@@ -80,7 +84,7 @@ body h1{
 #firstTextAboveInput{
   border: solid;
   padding: 10px;
-  background-color: rgb(238, 255, 0);
+  background-color: whitesmoke;
   float: left;
   margin-left: 20%;
   margin-top: 70px;
@@ -90,7 +94,7 @@ body h1{
 #secondTextAboveInput{
   border: solid;
   padding: 10px;
-  background-color: rgb(238, 255, 0);
+  background-color: white;
   float: right;
   margin-right: 29%;
   margin-top: 70px;
