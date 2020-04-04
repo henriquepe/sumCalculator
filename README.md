@@ -18,9 +18,13 @@ Javascript
 Sum calculator at your first version (v.1).
 This is not working yet.
 
-# SumCalculator Chrome
+# SumCalculator Chrome v.1
 
 ![sumcalculator](https://user-images.githubusercontent.com/62850277/78352705-2cbb7300-757f-11ea-8001-8f29865d3402.png)
 
+
+# SumCalculator Chrome v.2
+
+![sumcalculator_v2](https://user-images.githubusercontent.com/62850277/78456469-442b5680-767a-11ea-92bb-4d94dbf546b5.png)
 
 
