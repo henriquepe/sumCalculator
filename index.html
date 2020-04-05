@@ -1,34 +1,58 @@
+<!--especificando que este eh um documento html para o browser com sua
+respectiva versao-->
 <!DOCTYPE html>
+<!--Iniciando documento (marcacao) html-->
 <html>
+  <!--Iniciando o head do Documento, espaco para metadados-->
   <head>
+    <!--Padrao UTF-8 de caracteres-->
     <meta charset="UTF-8">
-    <title>Teste JS</title>
+    <!--title exibe o nome do site escolhido para a guia no browser-->
+    <title>SumCalculator</title>
+    <!--Fazendo referencia ao documento CSS do projeto-->
     <link rel="stylesheet" href="css/style.css">
   </head>
 
+  <!--Iniciando o body do Documento, espaco de manipulacao de elementos da pagina-->
   <body>
+    <!--Titulo da pagina-->
     <h1>Sum Calculator</h1>
     
+    <!--Abri uma div para a calculadora separando-a de outros elementos da pagina-->
     <div class="sumCalculator"> 
+      <!--Abri uma div apenas para manipular os subtitulos dos inputs-->
       <div class="textAboveInput">  
-        <p id="firstTextAboveInput">First number</p>   
+        <!--Texto acima do primeiro Input-->
+        <p id="firstTextAboveInput">First number</p> 
+        <!--Texto acima do segundo Input-->  
         <p id="secondTextAboveInput">Second number</p>  
       </div>
+      <!--Abri uma div para os elementos Input separando-os do
+      contexto geral para melhor manipular sua posicao-->
       <div class="input">
+        <!--Primeiro Input-->
         <input class="firstValue" type="text" placeholder="Digite o primeiro valor para somar">
+        <!--Paragrafo onde inclui o simbolo de Soma da Calculadora-->
         <p class="sumOperator">+</p>
+        <!--Segundo Input-->
         <input class="secondValue" type="text" placeholder="Digite o segundo valor para somar">
       </div>
+      <!--Abri uma div para os elementos de saida da calculadora, elementos manipulados por 
+      programacao e para melhor manipular posicoes-->
       <div class="output">
+        <!--Botao Resultado-->
         <button class="result">Resultado: </button>
+        <!--Paragrafo onde sera impresso o resultado depois do 
+        processamento de dados-->
         <p type="number" class="sumResult" readonly></p>
       </div>
     </div>
     
 
 
-
+    <!--Tag Script para localizar o arquivo de Javascript e processar de acordo
+    com o documento acima-->
     <script src="js/sum.js"></script>
   </body>
-
+<!--finalizei documento (marcacao) html-->
 </html>
