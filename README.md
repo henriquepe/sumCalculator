@@ -4,7 +4,9 @@ A simple summing calculator
 
 # Markup language
 
-HTML -->
+***if you prefer you can read too the index.html above***
+
+**HTML** -->
 
   ![index_html_01](https://user-images.githubusercontent.com/62850277/78495837-33cdb700-7720-11ea-833d-aa61901baa64.png)
 
@@ -20,12 +22,52 @@ HTML -->
 
 # Stylization
 
-CSS
+***if you prefer you can read too the style.css above***
+
+**CSS** --> 
+
+  ![style_css_01](https://user-images.githubusercontent.com/62850277/78499939-1867a980-772a-11ea-8c9b-409eca4cee97.png)
+
+
+  ![style_css_02](https://user-images.githubusercontent.com/62850277/78499946-1bfb3080-772a-11ea-9de8-42342eaf4cc6.png)
+
+
+  ![style_css_03](https://user-images.githubusercontent.com/62850277/78499949-1f8eb780-772a-11ea-95c3-648a97e56ca1.png)
+
+
+  ![style_css_04](https://user-images.githubusercontent.com/62850277/78499952-23bad500-772a-11ea-83b6-e955f97cd0d0.png)
+
+
+  ![style_css_05](https://user-images.githubusercontent.com/62850277/78499956-27e6f280-772a-11ea-8602-6488c56af6b5.png)
+
+
+  ![style_css_06](https://user-images.githubusercontent.com/62850277/78499959-2b7a7980-772a-11ea-808e-2557009eaa44.png)
+
+
+  ![style_css_07](https://user-images.githubusercontent.com/62850277/78499962-30d7c400-772a-11ea-8030-9ed2db930928.png)
+
+
+  ![style_css_08](https://user-images.githubusercontent.com/62850277/78499968-3503e180-772a-11ea-86d0-47bdc78a4030.png)
+
+
+  ![style_css_09](https://user-images.githubusercontent.com/62850277/78499972-392fff00-772a-11ea-9b36-13150b867587.png)
+
+
 
 
 # Programming language
 
-Javascript
+***if you prefer you can read too the style.css above***
+
+**Javascript** -->
+
+  ![js_01](https://user-images.githubusercontent.com/62850277/78502029-4dc5c480-7735-11ea-9a9f-080bb489d229.png)
+
+  ![js_02](https://user-images.githubusercontent.com/62850277/78502031-4ef6f180-7735-11ea-843e-a35a69029ff9.png)
+
+  ![js_03](https://user-images.githubusercontent.com/62850277/78502032-4ef6f180-7735-11ea-9857-c00879491772.png)
+
+
 
 
 # Resume
