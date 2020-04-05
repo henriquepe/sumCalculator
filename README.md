@@ -57,7 +57,7 @@ A simple summing calculator
 
 # Programming language
 
-***if you prefer, you can read too the style.css above***
+***if you prefer, you can read too the sum.js above***
 
 **Javascript** -->
 
