@@ -4,7 +4,7 @@ A simple summing calculator
 
 # Markup language
 
-***if you prefer you can read too the index.html above***
+***if you prefer, you can read too the index.html above***
 
 **HTML** -->
 
@@ -22,7 +22,7 @@ A simple summing calculator
 
 # Stylization
 
-***if you prefer you can read too the style.css above***
+***if you prefer, you can read too the style.css above***
 
 **CSS** --> 
 
@@ -57,7 +57,7 @@ A simple summing calculator
 
 # Programming language
 
-***if you prefer you can read too the style.css above***
+***if you prefer, you can read too the style.css above***
 
 **Javascript** -->
 
