@@ -1,16 +1,10 @@
-
-  
-
-  
-  
-  
-
+  //buscando no documento o elemento botao com classe ".result"
   var buttonResult = document.querySelector('.result');
 
-
+  //criando funcao que sera executada apos 'click' sobre o elemento button
   buttonResult.addEventListener('click',function() 
   {
-    //buscando o input resultado na DOM
+    //buscando o <p> 'result' na DOM
     var inputResult = document.querySelector('.sumResult');
 
     //resetando o input do resultado antes de incluir o novo valor.
@@ -35,20 +29,25 @@
 
     //verifica se o valor nao eh um numero ou vazio.
     if(isNaN(sumResult)){
+      //se nao for um numero, faca:
       alert("Favor digite valores escalares...");
     }
+    //se for um numero, faca:
     else{
-      //set text content in result input 
+      /*criando um elemento texto com o valor do resultado do processamento
+      acima*/ 
       var inputResultText = document.createTextNode(sumResult);
+      /*fazendo o elemento paragrafo <p> adotar o elemento texto
+      criado*/
       inputResult.appendChild(inputResultText);
     }
 
     
   
-    //show result in c...
+    //exbibindo o elemento texto tambem no console...
     console.log(inputResultText);
 
-    //resetando os inputs de valores
+    //resetando os valores dos inputs.
     firstNumber.value = "";
     secondNumber.value = "";
   })
