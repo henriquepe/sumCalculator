@@ -1,13 +1,23 @@
+
+/*Estilizando o titulo da pagina no body com uma font PT Sans Caption que instalei a partir
+do google.fonts -->  https://fonts.google.com/specimen/PT+Sans+Caption*/
 body h1{
   font-family: "PT Sans Caption";
 }
 
+/*Estilizando o elemento com classe ".result" (botao result) com hover que atraves de um mouseover
+muda as caracteristicas do elemento de acordo com a estilizacao escolhida, nesse caso mudei a cor de fundo
+para preto e a cor de texto para branco.*/
 .result:hover{
   background-color: rgba(0, 0, 0, 0.342);
   color: white;
 }
 
 
+/*Estilizando o elemento div da calculadora em geral com a classe ".sumCalculator", conforme explicado no elemento
+index.html. Nesse elementto utilizei borda solida com cor roxa, alterei a cor de fundo para um roxo azulado mantendo um
+padrao de cores escuras e vivas (nao sou designer rs), inclui, assim como no titulo, uma fonte PT Sans Caption (link esta
+na descricao do h1), largura do elemento de 800px e altura de 400px.*/
 .sumCalculator {
   border: solid;
   border-color: purple;
@@ -17,6 +27,9 @@ body h1{
   height: 400px;
 }
 
+
+/*Estilizacao basica para o elemento div com classe ".textAboveInput", inseri cor roxa, mantendo o padrao,
+nos elementos que o compoe, com largura de 99.6% e altura de 30% baseados no tamanho geral da calculadora.*/
 .textAboveInput{
   
   
@@ -26,23 +39,33 @@ body h1{
   
 }
 
+/*Estilizacao tambem simples nos elementos de input, foi apenas feito a manipulacao de posicao e espaco
+de sua div com classe ".input" para encaixe de seus elementos no documento, largura de 99.6% e altura de 20%
+baseados no tamanho geral da calculadora.*/
 .input{
-  
   
   width: 99.6%;
   height: 20%;
 
 }
 
+
+/*Estilizacao tambem simples nos elementos de output, foi apenas feito a manipulacao de posicao e espaco
+de sua div com classe ".output" para encaixe de seus elementos no documento, largura de 99.6% e altura de 46%
+baseados no tamanho geral da calculadora.*/
 .output{
-  
   width: 99.6%;
   height: 46%;
 }
 
 
+/*Estilizacao no elemento de input com classe ".firstValue" (primeiro elemento input), 
+feito a manipulacao de largura e altura, largura de 220px e altura de 30px. Adicionei
+margem a esquerda de 20% baseado na div de classe ".input" para que o elemento nao ficasse
+grudado na margem esquerda da calculadora e de sua respectiva div.
+Para que o elemento ficasse a um posicionamento de bloco e flutuando a esquerda, referindo-se 
+aos proximos elementos, inclui um float: left.*/
 .firstValue{
-
   width: 220px;
   height: 30px;
   margin-left: 20%;
@@ -50,6 +73,11 @@ body h1{
 
 }
 
+/*Estilizacao no elemento operador de soma ("+"), com um posicionamento de bloco e flutuando a 
+esquerda, referindo-se aos proximos elementos, um float: left. Elemento com cor de texto branca, 
+borda solida de 2px e cor preta. Espacamento entre o conteudo e a borda (padding) de
+5px, margem a direita e a esquerda de 10px cada, tendo uma separacao ideal dos elementos
+input.*/
 .sumOperator{
   float: left;
   color: white;
@@ -61,12 +89,22 @@ body h1{
 
 }
 
+/*Estilizacao no elemento input com classe ".secondValue" (segundo elemento input).
+Nesse elemento nao foi necessario aplicar tantas configuracoes pois os seus vizinhos
+a esquerda ja fizeram todo trabalho. Sendo assim, foi apenas feito manipulacao de
+posicao com float: left, fazendo com que este flutuasse a esquerda, referindo-se
+aos proximos elementos. Atribuido uma largura e altura identica ao do primeiro
+input --> largura 220px, altura 30px*/
 .secondValue{
   width: 220px;
   height: 30px;
   float: left; 
 }
 
+/*Estilizacao no elemento button com classe ".result" (botao "result" da calculadora)
+aplicado um float: left assim como nos outros elementos explicados (com o mesmo propo-
+sito), borda solida de 1px e cor preta. Uma margem a esquerda de 20%. Fonte padrao
+PT Sans Caption e suas alternativas com tamanho de 24px e cor roxa.*/
 .result{
   float: left;
   border: solid 1px black;
@@ -76,6 +114,13 @@ body h1{
   color: purple;
 }
 
+/*Elemento paragrafo com classe ".sumResult" estilizado, elemento recebera dados
+atraves do processamento em Javascript. Atribuido uma borda solida de 2px e cor
+preta. Largura de 220px, altura de 37px. Elemento com float: left (mesmo proposito
+dos elementos anteriores), cor de fundo branca, margem automatica para centralizar
+o elemento de acordo com a div do mesmo. Atribuicao de margem a esquerda de 20px, 
+distanciando este de forma ideal do botao a esquerda. Por fim, texto alinhado ao
+centro, melhorando a exibicao do resultado.*/
 .sumResult{
   border: solid 2px black;
   width: 220px;
@@ -89,7 +134,12 @@ body h1{
 }
 
 
-
+/*Estilizacao do texto acima dos elementos input, com borda solida em default e
+cor ja definida no elemento div. Distanciamento do conteudo e borda de 10px.
+Cor de fundo estilizada como "whitesmoke". Elemento flutuando a esquerda para
+se adequar paralelamente ao posicionamento do elemento input abaixo, e margem 
+a esquerda de 20%. Por fim, atribuicao de margem em relacao ao topo da div
+de 70px.*/
 #firstTextAboveInput{
   border: solid;
   padding: 10px;
@@ -100,10 +150,16 @@ body h1{
   
 }
 
+/*Estilizacao do texto acima dos elementos input, com borda solida em default e
+cor ja definida no elemento div. Distanciamento do conteudo e borda de 10px.
+Cor de fundo estilizada como "whitesmoke". Elemento flutuando a direita para
+se adequar paralelamente ao posicionamento do elemento input abaixo, e margem 
+a direita de 28%. Por fim, atribuicao de margem em relacao ao topo da div
+de 70px.*/
 #secondTextAboveInput{
   border: solid;
   padding: 10px;
-  background-color: white;
+  background-color: whitesmoke;
   float: right;
   margin-right: 28%;
   margin-top: 70px;
