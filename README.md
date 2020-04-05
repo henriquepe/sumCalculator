@@ -19,8 +19,19 @@ Javascript
 
 # Resume
 
-Sum calculator at your first version (v.1).
-This is not working yet.
+Sum calculator at your second version (v.2).
+Is already working.
+
+A simple summing calculator to simple math work's.
+
+This is one little more pessoal projects to improve my understanding
+and practice in JavaScript Language.
+
+If you want know how i did that and understand how easy is, please
+check the document of project and do it to with your own hands.
+Improvements and suggestions is always welcome.
+
+
 
 
 
