@@ -6,6 +6,22 @@
 A simple summing calculator
 
 
+# Resume
+
+SumCalculator at your second version (v.2).
+Is already working.
+
+A simple summing calculator to simple math work's.
+
+This is one little more pessoal projects to improve my understanding
+and practice in JavaScript Language.
+
+If you want know how i did that and understand how easy is, please
+check the document of project and do it with your own hands.
+Improvements and suggestions is always welcome.
+
+
+
 # Markup language
 
 ***if you prefer, you can read too the index.html above***
@@ -70,24 +86,6 @@ A simple summing calculator
   ![js_02](https://user-images.githubusercontent.com/62850277/78502031-4ef6f180-7735-11ea-843e-a35a69029ff9.png)
 
   ![js_03](https://user-images.githubusercontent.com/62850277/78502032-4ef6f180-7735-11ea-9857-c00879491772.png)
-
-
-
-
-# Resume
-
-SumCalculator at your second version (v.2).
-Is already working.
-
-A simple summing calculator to simple math work's.
-
-This is one little more pessoal projects to improve my understanding
-and practice in JavaScript Language.
-
-If you want know how i did that and understand how easy is, please
-check the document of project and do it with your own hands.
-Improvements and suggestions is always welcome.
-
 
 
 
