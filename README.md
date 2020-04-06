@@ -1,3 +1,7 @@
+![sumcalculator_v2](https://user-images.githubusercontent.com/62850277/78456469-442b5680-767a-11ea-92bb-4d94dbf546b5.png)
+
+
+
 # Sum Calculator
 A simple summing calculator
 
